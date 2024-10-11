@@ -2,3 +2,75 @@ main,
 footer {
   display: flex;
 }
+
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;;
+}
+
+header {
+  background-color: #032249;
+  font-weight: bold;
+}
+
+.logo {
+  text-align: center;
+}
+
+.sidebar {
+  background-color: yellow;
+}
+
+.sidebar h3 {
+  font-weight: bold;
+  color: blue;
+}
+
+.content {
+  background-color: aqua;
+}
+
+.content h1 {
+  font-weight: bold;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+h2#about + p {
+  background-color: black;
+  color: white;
+}
+
+h2#services + p {
+  background-color: green;
+  color: white;
+}
+
+h2#services + p + ul li:nth-child(even) {
+  color: red;
+}
+
+h2#services + p + ul li {
+  list-style: circle;
+}
+
+h2#contact + ul a,
+h2#contact + ul + ul a,
+h2#contact + ul + ul + ul a {
+  color: red;
+}
+
+footer div:nth-of-type(1) {
+  background-color: pink;
+}
+
+footer div:nth-of-type(2) {
+  background-color: darkred;
+  color: white;
+}
+
+footer div:nth-of-type(3) {
+  background-color: darkgray;
+}
+
